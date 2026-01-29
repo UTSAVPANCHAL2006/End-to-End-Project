@@ -1,0 +1,23 @@
+2026-01-26 19:46:46,129 - INFO - succesfully read the yaml file
+2026-01-26 19:46:46,129 - INFO - Data Ingestion Started Using Data/salary_data.csv
+2026-01-26 19:46:46,129 - INFO - Reading Data From CSV
+2026-01-26 19:46:46,130 - INFO - Splitting Data Into Train & Test
+2026-01-26 19:46:46,132 - INFO - Training Data save to artifacts/raw/Train.csv
+2026-01-26 19:46:46,132 - INFO - Testing Data save toartifacts/raw/Test.csv
+2026-01-26 19:46:46,132 - INFO - Data Ingestion completed successfully
+2026-01-26 19:46:46,132 - INFO - succesfully read the yaml file
+2026-01-26 19:46:46,132 - INFO - Starting Data PreProcessing
+2026-01-26 19:46:46,132 - INFO - Load Data
+2026-01-26 19:46:46,132 - INFO - Loading Data
+2026-01-26 19:46:46,133 - INFO - Loading Data
+2026-01-26 19:46:46,133 - INFO - Drop Duplicates
+2026-01-26 19:46:46,134 - INFO - Removing Missing Values
+2026-01-26 19:46:46,134 - INFO - Fitting preprocessor on training data
+2026-01-26 19:46:46,139 - INFO - Saved preprocessor to artifacts/preprocessor.pkl
+2026-01-26 19:46:46,151 - INFO - Saved processed data to artifacts/processed
+2026-01-26 19:46:46,151 - INFO - Loading processed data
+2026-01-26 19:46:46,155 - INFO - Splitting data into training and testing sets
+2026-01-26 19:46:46,155 - INFO - Training Linear Regression model
+2026-01-26 19:46:46,280 - INFO - Evaluating model
+2026-01-26 19:46:46,285 - INFO - Model Training Performance: R2 Score: 0.8593017052143919, MAE: 11166.342198202055, MSE: 342791369.0382295
+2026-01-26 19:46:46,285 - INFO - Saving trained model

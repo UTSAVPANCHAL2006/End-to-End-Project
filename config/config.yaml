@@ -1,0 +1,13 @@
+data_ingestion:
+  source_type: local
+  local_file_path: Data/salary_data.csv
+  train_ratio: 0.8
+
+data_preprocessing:
+  categorical_numbers:
+    - Gender
+    - Education Level
+    - Job Title
+  numerical_numbers:
+    - Age
+    - Years of Experience
