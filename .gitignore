@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Data / artifacts (optional)
+Data/
+artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Docker
+*.tar
+
+# VS Code
+.vscode/
