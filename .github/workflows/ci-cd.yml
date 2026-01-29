@@ -26,7 +26,8 @@ jobs:
 
       - name: Check FastAPI app loads
         run: |
-          python -c "import main; print('App import OK')"
+          python -c "import app; print('App import OK')"
+
 
       - name: Check ML artifacts exist
         run: |
