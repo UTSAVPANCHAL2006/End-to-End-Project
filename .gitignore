@@ -15,7 +15,6 @@ mlflow.db
 
 # Data / artifacts (optional)
 Data/
-artifacts/
 
 # Jupyter
 .ipynb_checkpoints/
